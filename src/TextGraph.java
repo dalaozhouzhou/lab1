@@ -8,11 +8,8 @@ import java.util.List;
 
 // Change A
 // Change E
-
 // Change D
-
 // Change C
-
 
 class MyPanel extends JPanel {
 
@@ -76,6 +73,10 @@ public class TextGraph extends JFrame {
 		StringBuilder sb = new StringBuilder();
 		s = inputText.replaceAll("[\\p{Punct}]+", " ");
 		s = s.replaceAll("\\s+", " ");
+<<<<<<< HEAD
+=======
+		s = s.toLowerCase();
+>>>>>>> han
 		String[] words = s.split(" ");
 		for (int i = 0; i < words.length; i++) {
 			sb.append(words[i]);

@@ -5,7 +5,6 @@ import javax.xml.bind.DataBindingException;
 
 // Change A
 
- 
 // Change D 
 
 // Change C
@@ -305,5 +304,9 @@ public class Graph {
 			g.drawString(Integer.toString(i) + "  " + list.get(i).toString(), x, y + i * 10);
 		}
 	}
+<<<<<<< HEAD
+=======
+	
+>>>>>>> han
 
 }
